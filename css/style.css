@@ -1,0 +1,685 @@
+    *,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-header {
+    display: flex;
+    margin: 1rem 3rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo-text {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 4rem;
+    font-size: 3rem;
+    color: rgb(155, 155, 148);
+}
+
+.logo-menu {
+    flex-direction: end;
+}
+
+.second-section {
+    height: 130vh;
+    background-position: 34.74% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../img/p1.jpg);
+}
+
+.second-section-text {
+    color: white;
+    margin-left: 5rem;
+    padding-top: 13rem;
+}
+
+.second-section-text h2 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+    font-weight: 350;
+    font-style: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.second-section-text h1 {
+    font-size: 7rem;
+    font-family: "Archivo Black";
+    font-weight: 800;
+    margin: 0rem;
+}
+
+.second-section .line::before {
+    content: '';
+    position: absolute;
+    transform: translateX(-50);
+    left: 7%;
+    width: 43%;
+    height: 0.6rem;
+    background-color: white;
+}
+
+.line {
+    padding: 1rem;
+}
+
+.icon {
+    display: flex;
+    margin-top: 2rem;
+    padding: 1rem;
+    height: 5rem;
+}
+
+.painting {
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.painting p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.painting img {
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    text-align: center;
+}
+
+.third-section {
+    height: 80vh;
+    color: #111111;
+    background-color: #f2f2f2;
+}
+
+.third-section .third-section-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9rem 0rem 2rem 0rem;
+    width: 90%;
+    margin-left: 4rem;
+}
+
+.third-section-div h3 {
+    font-size: 1.25rem;
+    padding: 0;
+    color: #999999;
+    word-wrap: break-word;
+    position: relative;
+    font-family: Roboto, sans-serif;
+}
+
+.third-section-div h2 {
+    font-weight: 700;
+    font-size: 3.125rem;
+    margin: 20px auto 0;
+}
+
+.third-section-div p {
+    word-wrap: break-word;
+    position: relative;
+    flex-shrink: 0;
+    color: #111111;
+    text-align: center;
+    line-height: 1.6;
+    width: 720px;
+    font-size: 1.2rem;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.but {
+    padding: 1rem;
+    width: 8rem;
+    background-color: red;
+    color: white;
+    border: 0 none transparent;
+    border-radius: 3px;
+    display: table;
+    cursor: pointer;
+    line-height: inherit;
+    font-family: inherit;
+    text-decoration: none;
+    font-style: initial;
+    white-space: nowrap;
+    user-select: none;
+    text-align: center;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-section {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+    margin-left: 8rem;
+}
+
+.fourth-section-first-div img {
+    height: 25rem;
+    width: 33em;
+}
+
+.fourth-section .fourth-section-first-div img {
+    padding-bottom: 3rem;
+}
+
+.fourth-section .fourth-section-first-div p {
+    width: 80%;
+    font-size: 1.2rem;
+    font-weight: 0;
+    line-height: 1.8rem;
+    margin-left: 4rem;
+}
+
+.fourth-section-second-div h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.fourth-section-second-div h3 {
+    font-size: 2rem;
+    color: red;
+}
+
+.fourth-section-second-div img {
+    width: 33rem;
+}
+
+.fifth-section {
+    background-color: lavender;
+    height: 100vh;
+    display: flex;
+}
+
+.fifth-section .fifth-section-img img {
+    height: 76.8vh;
+    width: 60vh;
+    flex-shrink: 1;
+}
+
+.fifth-section .fifth-section-img {
+    width: 80%;
+    zoom: 1.3;
+    margin-left: 6rem;
+}
+
+.fifth-section .fifth-section-text {
+    width: 100%;
+    padding-top: 10rem;
+    margin-right: 4rem;
+}
+
+.fifth-section .fifth-section-text p::before {
+    content: '';
+    position: absolute;
+    transform: translateX(-50);
+    left: 43rem;
+    width: 40%;
+    height: 0.6rem;
+    background-color: red;
+    margin: -2rem;
+}
+
+.fifth-section .fifth-section-text h1 {
+    font-size: 4rem;
+    color: blue;
+    padding: 1rem;
+}
+
+.fifth-section .fifth-section-text p {
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.our-services {
+    font-size: 3rem;
+    padding: 4rem 0 0rem 5rem;
+    font-weight: 600;
+}
+
+.sixth-section {
+    width: 100%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.sixth-section-div {
+    margin: 2rem 2rem 0rem 4rem;
+    height: 50vh;
+    width: 80%;
+    margin-bottom: 4rem;
+}
+
+.sixth-section-div .img {
+    background-color: #e71a23;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    margin-bottom: 0rem;
+    margin-left: 0%;
+}
+
+.sixth-section-div p {
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+
+.sixth-section-div h1 {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.service-div {
+    display: flex;
+}
+
+.seventh-section {
+    background-color: #104e92;
+    display: flex;
+    height: 100vh;
+}
+
+.seventh {
+    display: flex;
+    justify-content: center;
+}
+
+.seventh-section-text {
+    width: 50%;
+    padding: 10rem;
+    color: white;
+}
+
+.seventh-section-text h4 {
+    font-size: 2rem;
+}
+
+.seventh-section-text h2 {
+    font-size: 6rem;
+}
+
+.seventh-section-img {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 2em;
+    margin-top: 8em;
+    grid-auto-rows: 12em;
+}
+
+.seventh-section-img img {
+    height: 12rem;
+    padding: 0%;
+    margin: 0%;
+}
+
+.seventh-section-img img {
+    width: 100%;
+}
+
+.last-section {
+    margin: 0 auto;
+    height: 20px;
+}
+
+.last-section-div {
+    height: 300px;
+    text-align: center;
+    margin: 6em 1em 0em 25rem;
+}
+
+.last-section-div h1 {
+    width: 50%;
+    font-size: 1.8em;
+}
+
+.last-section-div p {
+    width: 50%;
+    font-size: 1.8em;
+    line-height: 1.5em;
+}
+
+.but-2 {
+    padding: 1rem;
+    width: 8rem;
+    border-style: solid;
+    margin: 0 auto 0 0;
+    border-color: #454545;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+    color: #454545;
+}
+
+.told {
+    display: flex;
+    gap: 1em;
+    padding-bottom: 4em;
+    padding-top: 2em;
+    margin-left: 4rem;
+}
+
+@media(max-width:760px) and (min-width:480px) {
+    .logo-header {
+        margin: 2rem 0rem;
+    }
+    .second-section {
+        background-position: contain;
+    }
+    .second-section-text h2 {
+        font-size: 2rem;
+    }
+    .second-section-text h1 {
+        font-size: 4rem;
+    }
+    .second-section .line::before {
+        left: 12%;
+        width: 48%;
+    }
+    .painting {
+        width: 7rem;
+    }
+    .painting p {
+        font-size: 1.2rem;
+    }
+    .painting img {
+        height: 4rem;
+    }
+    .third-section .third-section-div {
+        width: 80%;
+        padding-top: 3rem;
+    }
+    .fourth-section {
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+    }
+    .fourth-section-first-div img {
+        height: 35rem;
+        width: 35em;
+    }
+    .fourth-section-second-div img {
+        width: 35em;
+    }
+    .fifth-section .fifth-section-img {
+        width: 50%;
+        margin-left: 0.5rem;
+    }
+    .fifth-section .fifth-section-text h1 {
+        font-size: 2.5rem;
+    }
+    .fifth-section .fifth-section-text {
+        text-align: left;
+        padding-top: 3rem;
+        margin-right: 2rem;
+    }
+    .fifth-section .fifth-section-text p::before {
+        left: 25rem;
+        width: 40%;
+    }
+    .fifth-section .fifth-section-text p {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+    .our-services {
+        font-size: 2.5rem;
+    }
+    .sixth-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .sixth-section-div {
+        margin: 2rem 2rem 0rem 4rem;
+        height: 70vh;
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+    .sixth-section-div p {
+        font-style: italic;
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .sixth-section-div h1 {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 2rem;
+    }
+    .service-div {
+        display: flex;
+    }
+    .seventh-section-text {
+        width: 50%;
+        padding: 6rem 3rem 2rem 2rem;
+    }
+    .seventh-section-text h4 {
+        font-size: 1rem;
+        padding: 2rem;
+    }
+    .seventh-section-text h2 {
+        font-size: 3rem;
+    }
+    .seventh-section-img {
+        margin-top: 4em;
+        grid-auto-rows: 9em;
+    }
+    .seventh-section-img img {
+        height: 10rem;
+        width: 11rem;
+    }
+    .last-section-div {
+        height: 30px;
+        margin: 2em 1em 0em 8rem;
+    }
+    .last-section-div h1 {
+        width: 80%;
+        margin: 4%;
+        font-size: 1.8em;
+        margin-left: 10%;
+    }
+    .last-section-div p {
+        width: 100%;
+    }
+    .told {
+        margin-left: 6rem;
+    }
+}
+
+@media(max-width:480px) and (min-width:0px) {
+    .logo-text {
+        font-weight: 1rem;
+        font-size: 1rem;
+    }
+    .second-section {
+        width: 100%;
+        background-position: 80.74% 40%;
+    }
+    .second-section-text {
+        padding-top: 20rem;
+    }
+    .second-section-text h2 {
+        font-size: 2rem;
+    }
+    .second-section-text h1 {
+        font-size: 3rem;
+    }
+    .second-section .line::before {
+        left: 7%;
+        width: 90%;
+    }
+    .line {
+        padding: 1rem;
+    }
+    .painting {
+        width: 12rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .painting p {
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .painting img {
+        height: 2rem;
+    }
+    .third-section .third-section-div {
+        padding: 3rem 0rem 0rem 0rem;
+        width: 65%;
+    }
+    .third-section-div h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+    .third-section-div p {
+        width: 400px;
+        font-size: 1rem;
+        padding-bottom: 0.5rem;
+    }
+    .fourth-section .fourth-section-first-div p {
+        width: 80%;
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+    .fourth-section {
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+    }
+    .fourth-section-first-div img {
+        height: 20rem;
+        width: 16em;
+    }
+    .fourth-section-second-div img {
+        width: 16em;
+        zoom: 1;
+    }
+    .fourth-section-second-div h2 {
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-bottom: 1rem;
+    }
+    .fourth-section-second-div h3 {
+        font-size: 1rem;
+        color: red;
+    }
+    .fifth-section .fifth-section-img {
+        width: 50%;
+        margin-left: 0rem;
+    }
+    .fifth-section .fifth-section-img img {
+        width: 13em;
+        height: 23.5em;
+    }
+    .fifth-section .fifth-section-text h1 {
+        font-size: 2rem;
+    }
+    .fifth-section .fifth-section-text {
+        text-align: left;
+        padding-top: 1rem;
+        margin-right: 1rem;
+    }
+    .fifth-section .fifth-section-text p::before {
+        left: 16rem;
+        width: 40%;
+    }
+    .fifth-section .fifth-section-text p {
+        padding-top: 3rem;
+        font-size: 1rem;
+        line-height: 1.5em;
+    }
+    .our-services {
+        font-size: 2.5rem;
+    }
+    .sixth-section {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .sixth-section-div {
+        margin: 0.5rem 0rem 0rem 0.5rem;
+        height: 70vh;
+        width: 78%;
+        margin-bottom: 2rem;
+    }
+    .sixth-section-div p {
+        font-style: italic;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        width: 80%;
+    }
+    .sixth-section-div h1 {
+        padding-top: 0.5rem;
+        padding-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+    .service-div {
+        display: flex;
+    }
+    .seventh-section {
+        height: 70vh;
+    }
+    .seventh-section-text {
+        width: 50%;
+        padding: 6rem 3rem 2rem 2rem;
+    }
+    .seventh-section-text h4 {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .seventh-section-text h2 {
+        font-size: 2rem;
+    }
+    .seventh-section-img {
+        margin-top: 6em;
+        grid-auto-rows: 4em;
+        gap: 1.3em;
+    }
+    .seventh-section-img img {
+        height: 5rem;
+        width: 5rem;
+    }
+    .last-section-div {
+        height: 0px;
+        margin: 2em 1em 0em 8rem;
+    }
+    .last-section-div h1 {
+        width: 60%;
+        font-size: 0.6em;
+        margin-bottom: 1.5em;
+    }
+    .last-section-div p {
+        width: 60%;
+        font-size: 0.5em;
+        left: 40%;
+    }
+    .told {
+        margin-left: 0rem;
+    }
+    .sixth-section-div .img {
+        height: 80px;
+        width: 80px;
+    }
