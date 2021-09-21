@@ -434,14 +434,15 @@ html {
     .fourth-section {
         flex-direction: column;
         margin-left: 1em;
+        width: 100%;
     }
     .fourth-section-first-div {
-        width: 100%;
+        width: 80%;
         margin-bottom: 4rem;
     }
     .fourth-section-first-div img {
         height: 25rem;
-        width: 100%;
+        width: 90%;
     }
     .fourth-section-second-div img {
         width: 100%;
@@ -501,7 +502,7 @@ html {
         font-size: 3.5rem;
     }
     .second-section .line::before {
-        left: 12%;
+        left: 19%;
         width: 60%;
     }
     .painting {
@@ -520,8 +521,15 @@ html {
         font-size: 1rem;
         padding-bottom: 4rem;
     }
+    .fourth-section-first-div {
+        width: 80%;
+    }
+    .fourth-section-second-div {
+        width: 80%;
+    }
     .fourth-section {
         margin-left: 1em;
+        width: 100%;
     }
     .fifth-section {
         display: flex;
