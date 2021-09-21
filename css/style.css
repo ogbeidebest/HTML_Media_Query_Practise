@@ -582,7 +582,10 @@ html {
         flex-direction: column;
     }
     .seventh-section {
-        height: 335vh;
+        height: 305vh;
+    }
+    .seventh-section-text h2 {
+        font-size: 2.5rem;
     }
     .seventh-section-img img {
         width: 80%;
