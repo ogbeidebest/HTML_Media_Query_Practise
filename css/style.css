@@ -407,6 +407,9 @@ html {
 }
 
 @media(max-width:769px) {
+    .second-section {
+        background-position: 55.74% 0%;
+    }
     .second-section-text h2 {
         font-size: 2.8rem;
     }
@@ -455,12 +458,15 @@ html {
         margin-left: 2rem;
     }
     .fifth-section .fifth-section-text {
-        padding-top: 3.5rem;
+        padding-top: 3rem;
         margin-right: 2rem;
     }
+    .fifth-section .fifth-section-text h1 {
+        font-size: 3rem;
+    }
     .fifth-section .fifth-section-text p::before {
-        left: 25rem;
-        width: 40%;
+        left: 33rem;
+        width: 27%;
     }
     .sixth-section-div {
         height: 100vh;
