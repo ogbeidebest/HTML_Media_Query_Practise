@@ -619,7 +619,7 @@ html {
     .last-section-button {
         display: flex;
         flex-direction: column;
-        padding-top: 28em;
+        padding-top: 32em;
         align-items: center;
     }
     .fifth-section .fifth-section-img img {
