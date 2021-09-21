@@ -484,22 +484,24 @@ html {
         grid-auto-rows: 4em;
         width: 100%;
     }
+    .seventh-section-img {
+        margin-left: 1em;
+    }
 }
 
 @media(max-width:426px) {
     .second-section {
         background-position: 81.49% 50%;
-        height: 130vh;
         width: 100%;
     }
     .second-section-text {
         padding-top: 28rem;
     }
     .second-section-text h2 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .second-section-text h1 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
     .second-section .line::before {
         left: 19%;
@@ -510,7 +512,7 @@ html {
     }
     .third-section .third-section-div {
         padding: 3rem 0rem 0rem 0rem;
-        width: 90%;
+        width: 80%;
     }
     .third-section-div h2 {
         text-align: center;
@@ -527,8 +529,11 @@ html {
     .fourth-section-second-div {
         width: 80%;
     }
+    .fourth-section-second-div h3 {
+        font-size: 1.5rem;
+    }
     .fourth-section {
-        margin-left: 1em;
+        margin-left: 0em;
         width: 100%;
     }
     .fifth-section {
@@ -576,6 +581,9 @@ html {
     .seventh-section-img img {
         width: 80%;
         height: 19rem;
+    }
+    .seventh-section-img {
+        margin-left: 1em;
     }
     .last-section-div {
         height: 0px;
