@@ -489,6 +489,7 @@ html {
     .second-section {
         background-position: 81.49% 50%;
         height: 130vh;
+        width: 100%;
     }
     .second-section-text {
         padding-top: 28rem;
@@ -536,7 +537,7 @@ html {
         height: 15em;
     }
     .fifth-section .fifth-section-text h1 {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .fifth-section .fifth-section-text p::before {
         left: 2.5rem;
@@ -565,8 +566,8 @@ html {
         height: 335vh;
     }
     .seventh-section-img img {
-        height: 20rem;
-        width: 20rem;
+        width: 80%;
+        height: 19rem;
     }
     .last-section-div {
         height: 0px;
